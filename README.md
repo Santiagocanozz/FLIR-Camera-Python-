@@ -2,19 +2,18 @@
 In this repository you will find the connection to the FLIR BFS-U3-19S4C-C 2.0MP Color camera via Python. 
 
 
-Para la conexión es necesario tener instalado el SDK de flir segun el tipo de cámara. 
-A través del siguiente link se obtiene: 
+For the connection it is necessary to have the flir SDK installed according to the type of camera. You can get it through the following link: 
 
 https://www.flir.com.mx/products/spinnaker-sdk/?vertical=machine+vision&segment=iis
 
-Para la lectura de la cámara es necesario la instalación de la libreria: EasyPySpin: 
-Adjunto repositorio: 
+To read the camera it is necessary to install the library: EasyPySpin: 
+Repository attached: 
 https://github.com/elerac/EasyPySpin
 
-Para instalar a través de comandos PIP: 
+To install through PIP commands: 
 pip install EasyPySpin
 
-Para conexión con el dispositivo: 
+Example: 
 
 import cv2
 import EasyPySpin
